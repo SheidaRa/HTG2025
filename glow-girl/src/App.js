@@ -17,16 +17,16 @@ function App() {
       <Router>
         <Routes>
 
-          <Route exact path="/" element={<Categories />} />
+          {/* <Route exact path="/" element={<Categories />} /> */}
 
           {/* <Accessibility /> */}
           {/* TODO move Categories and Accessibility into Home component */}
           
-          <Route path="/category" element={<CategoryPage />} />
+          {/* <Route path="/category" element={<CategoryPage />} />
 
           <Route path="/topic" element={<TopicPage />} />
 
-          <Route path="/settings" element={<Settings />} />
+          <Route path="/settings" element={<Settings />} /> */}
         </Routes>
       </Router>
     </div>
